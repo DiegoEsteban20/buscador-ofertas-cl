@@ -1,0 +1,44 @@
+﻿BUSCADOR DE OFERTAS v2
+======================
+
+Cada vez que inicias sesión en Windows (2 minutos después), revisa las tiendas,
+crea un Excel en Escritorio\Ofertas y lo abre solo.
+
+QUÉ REVISA (40 fuentes, todas probadas desde este PC)
+- Tecnología (Solotodo): consolas, tarjetas gráficas, teclados, mouse, audífonos,
+  notebooks, monitores, celulares, smartwatch, sillas gamer, TV, SSD, parlantes,
+  perfumes de hombre y afeitadoras/cortapelo.
+- Falabella: poleras de fútbol, zapatillas, poleras, polerones, jeans, chaquetas,
+  buzos, relojes, perfumes, mochilas, lentes de sol, figuras anime, Funko, LEGO,
+  juegos físicos PS5 y Switch, herramientas.
+- Tiendas de marca: Reebok, Levi's, Asics, Totto.
+- Juegos digitales: Steam (en pesos), Nintendo eShop Chile (en pesos),
+  GOG/Humble/Epic/Fanatical vía CheapShark (en dólares).
+- Juegos GRATIS: Epic Games y GamerPower.
+
+EL EXCEL
+- "Mejores": las 5 mayores rebajas de cada categoría (primero lo que BAJÓ).
+- "Bajaron de precio": todo lo que está más barato que la vez anterior.
+- "Todas": todos los productos encontrados.
+- "Fuentes con error": tiendas que no respondieron (si hubo).
+- Nota: dice si el precio es con tarjeta CMR, quién vende (en Falabella) o si es gratis.
+- Verde = 40% o más de descuento. Amarillo = 15% a 39%.
+
+AGREGAR O QUITAR: edita Fuentes.csv (se abre con Excel o Bloc de notas)
+- Activo: SI / NO
+- Falabella: cambia lo que va después de Ntt= (ej. Ntt=parrilla+electrica)
+- Solotodo: cambia el número de categoría en la URL
+- Filtro: palabras que debe tener el nombre del producto (separadas por |)
+- Paginas: cuántas páginas revisar (más páginas = más productos, más lento)
+
+OPCIONES
+  -NoAbrir            no abre el Excel al terminar
+  -Forzar             busca aunque haya buscado hace poco
+  -Solo falabella     prueba solo las fuentes que contengan ese texto
+  -Instalar / -Desinstalar   tarea automática al iniciar sesión
+
+Tiendas que bloquean consultas automáticas (por eso ya no están):
+adidas.cl, Deku Deals, PSPrices, Nike, Decathlon, Weplay.
+PlayStation Store Chile carga sus ofertas con JavaScript, así que no se puede leer.
+
+Registro: BuscadorOfertas.log
